@@ -3,7 +3,7 @@
 
 // Change this to tune the strength of the noise
 // Apparently this has to be float on some setups
-define STRENGTH 48.0
+#define STRENGTH 48.0
 
 // PRNG taken from mpv's deband shader
 float mod289(float x)  { return x - floor(x / 289.0) * 289.0; }
