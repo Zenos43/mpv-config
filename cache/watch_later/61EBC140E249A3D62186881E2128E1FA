@@ -1,0 +1,4 @@
+start=417.917000
+af=lavfi=graph=%135%lowpass=c=LFE:f=120,volume=1.6,pan=stereo|FL=0.5*FC+0.3*FLC+0.3*FL+0.3*BL+0.3*SL+0.5*LFE|FR=0.5*FC+0.3*FRC+0.3*FR+0.3*BR+0.3*SR+0.5*LFE
+sub-visibility=no
+video-crop=3836x1604+4+278
