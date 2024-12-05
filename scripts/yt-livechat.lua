@@ -10,7 +10,7 @@ local xdg_data_home = is_windows and "" or (os.getenv("XDG_DATA_HOME") or (os.ge
 
 local opts = {}
 opts['auto-load'] = false
-opts['live-chat-directory'] = is_windows and 'F:/' or (xdg_data_home .. '/youtube-live-chats')
+opts['live-chat-directory'] = is_windows and 'F:/youtube-live-chats' or (xdg_data_home .. '/youtube-live-chats')
 opts['yt-dlp-path'] = 'yt-dlp'
 opts['show-author'] = true
 opts['author-color'] = 'random'
@@ -18,13 +18,13 @@ opts['author-border-color'] = '000000'
 opts['message-color'] = 'ffffff'
 opts['message-border-color'] = '000000'
 opts['font'] = mp.get_property_native('osd-font')
-opts['font-size'] = 16
+opts['font-size'] = 13
 opts['border-size'] = 2
-opts['message-duration'] = 10000
+opts['message-duration'] = 10500
 opts['max-message-line-length'] = 40
 opts['message-break-anywhere'] = false
 opts['message-gap'] = 10
-opts['anchor'] = 1
+opts['anchor'] = 4
 
 options.read_options(opts)
 options.read_options(opts, "mpv-youtube-chat")
