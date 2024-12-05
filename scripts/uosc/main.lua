@@ -1,5 +1,5 @@
 --[[ uosc | https://github.com/tomasklaen/uosc ]]
-local uosc_version = '5.6.2'
+local uosc_version = '5.6.0'
 
 mp.commandv('script-message', 'uosc-version', uosc_version)
 
@@ -103,7 +103,7 @@ defaults = {
 	disable_elements = '',
 }
 options = table_copy(defaults)
-function handle_options(changed_options)
+opt.read_options(options, 'uosc', function(changed_options)
 	if changed_options.time_precision then
 		timestamp_zero_rep_clear_cache()
 	end
@@ -113,8 +113,7 @@ function handle_options(changed_options)
 	Elements:trigger('options')
 	Elements:update_proximities()
 	request_render()
-end
-opt.read_options(options, 'uosc', handle_options)
+end)
 -- Normalize values
 options.proximity_out = math.max(options.proximity_out, options.proximity_in + 1)
 if options.chapter_ranges:sub(1, 4) == '^op|' then options.chapter_ranges = defaults.chapter_ranges end
@@ -953,6 +952,7 @@ bind_command('playlist', create_self_updating_menu_opener({
 		if event.id == 'ctrl+c' and event.selected_item then
 			local payload = mp.get_property_native('playlist/' .. (event.selected_item.value - 1) .. '/filename')
 			set_clipboard(payload)
+			mp.commandv('show-text', t('Copied to clipboard') .. ': ' .. payload, 3000)
 		end
 	end,
 	on_move = function(event)
