@@ -18,7 +18,7 @@ local function init()
 
     -- launch mitm proxy
     local args = {
-        cwd .. "/http-ytproxy/run.vbs"
+        cwd .. "\\http-ytproxy\\run.vbs"
     }
     mp.command_native_async({
         name = "subprocess",

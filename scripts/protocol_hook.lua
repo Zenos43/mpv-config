@@ -11,7 +11,7 @@ local options = {
     ipcMode = false,
     proxy = '',
     nogeometry = true,
-    stream_quality = '720p,best,worst',
+    stream_quality = 'best',
 }
 
 opts.read_options(options, "protocol_hook")
