@@ -18,7 +18,7 @@ local utils = require 'mp.utils'
 
 local options = require 'mp.options'
 local opts = {
-	temp = "F:\\ytdl",
+	temp = "D:\\ytdl",
 	subLangs = "",
 	ytdl_opt1 = "",
 	ytdl_opt2 = "",
@@ -216,7 +216,7 @@ local function download_files(id, success, result, error)
 		mp.unregister_event(listener)
 		return
 	end
-	if result.stderr ~= '' and not result.stderr:find("paths is ignored") then
+	if result.stderr ~= '' and result.stderr:find("ERROR") then
 		print(result.stderr)
 		mp.unregister_event(listener)
 		print("removing faulty video (entry number: " .. nextIndex + 1 .. ") from playlist")
