@@ -1,0 +1,21 @@
+1
+0:0:0,0 --> 999:0:0,0
+<font color="#42f31e">1almost_famous</font>: !build
+<font color="#d0e8ea">nightbot</font>: https://maxroll.gg/poe2/planner/9h21t0zy
+<font color="#493d9e">fredictable</font>: @Kalashnikorv :D
+<font color="#c16539">dgk_</font>: mod in name only lol
+<font color="#58e2d4">epps01</font>: @berethiangames You are tracking Ziz's
+grandmother??
+<font color="#ba1c70">x_pg_x</font>: !lootfilter
+<font color="#d0e8ea">nightbot</font>: Need a guide on how to install a
+lootfilter? Check out this video by
+ziggyd https://youtu.be/3XBPUpCuIUQ .
+Use !filter command if you are looking
+for ziz's item filter
+<font color="#018801">aktikus</font>: KEKW
+<font color="#ba1c70">x_pg_x</font>: !filter
+<font color="#d0e8ea">nightbot</font>: Melee Warrior:
+https://pastebin.com/Page2W9F Caster
+Witch: https://pastebin.com/33spSZkR We
+recommend using !Neversink
+
