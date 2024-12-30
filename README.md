@@ -28,7 +28,7 @@ Live Twitch chat
 - [tomasklaen/uosc](https://github.com/tomasklaen/uosc)
 - [serenae-fansubs/webm](https://github.com/serenae-fansubs/mpv-webm)
 - [Idlusen/mpv-ytsub](https://github.com/Idlusen/mpv-ytsub)
-- [kevinlekiller/autospeedwin.lua]([https://github.com/Idlusen/mpv-ytsub](https://github.com/kevinlekiller/mpv_scripts/blob/master/autospeedwin/autospeedwin.lua))
+- [kevinlekiller/autospeedwin.lua](https://github.com/kevinlekiller/mpv_scripts/blob/master/autospeedwin/autospeedwin.lua)
 - [longtitlepatcher.lua]()
 - [dyphire/mpv-animated.lua](https://github.com/dyphire/mpv-scripts)
 - [BanchouBoo/mpv-youtube-chat](https://github.com/BanchouBoo/mpv-youtube-chat)
