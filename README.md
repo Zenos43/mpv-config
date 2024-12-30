@@ -30,18 +30,15 @@ Live Twitch chat
 - [Idlusen/mpv-ytsub](https://github.com/Idlusen/mpv-ytsub)
 - [kevinlekiller/autospeedwin.lua](https://github.com/kevinlekiller/mpv_scripts/blob/master/autospeedwin/autospeedwin.lua)
 - [longtitlepatcher.lua]()
-- [dyphire/mpv-animated.lua](https://github.com/dyphire/mpv-scripts)
+- [dyphire/mpv-animated](https://github.com/dyphire/mpv-scripts)
 - [BanchouBoo/mpv-youtube-chat](https://github.com/BanchouBoo/mpv-youtube-chat)
-- [Idlusen/mpv-ytsub](https://github.com/Idlusen/mpv-ytsub)
-- [Idlusen/mpv-ytsub](https://github.com/Idlusen/mpv-ytsub)
-- [Idlusen/mpv-ytsub](https://github.com/Idlusen/mpv-ytsub)
-- [Idlusen/mpv-ytsub](https://github.com/Idlusen/mpv-ytsub)
-- [Idlusen/mpv-ytsub](https://github.com/Idlusen/mpv-ytsub)
-- [Idlusen/mpv-ytsub](https://github.com/Idlusen/mpv-ytsub)
-- [Idlusen/mpv-ytsub](https://github.com/Idlusen/mpv-ytsub)
-- [Idlusen/mpv-ytsub](https://github.com/Idlusen/mpv-ytsub)
-- [Idlusen/mpv-ytsub](https://github.com/Idlusen/mpv-ytsub)
-- 
+- [CounterPillow/mpv-quack](https://github.com/CounterPillow/mpv-quack)
+- [jgreco/rubberband_helper](https://github.com/jgreco/mpv-scripts/blob/master/rubberband_helper.lua)
+- [bitingsock/ytdl-preload](https://github.com/bitingsock/ytdl-preload/blob/main/ytdl-preload.lua)
+- [FirefoxUniverse/FirefoxTweaksVN/ytproxy](https://github.com/FirefoxUniverse/FirefoxTweaksVN/releases/tag/all)
+- [zenyd/speed-transition](https://github.com/zenyd/mpv-scripts/blob/master/speed-transition.lua)
+- [morrah/mpv-twitch-chat-irc](https://github.com/morrah/mpv-twitch-chat-irc)
+- [joaquintorres/autosubsync-mpv](https://github.com/joaquintorres/autosubsync-mpv)
 ---
 
 - [bjin/mpv-prescalers](https://github.com/bjin/mpv-prescalers/tree/master/gather)
@@ -58,3 +55,9 @@ Live Twitch chat
     - hdeband.glsl
 - [haasn/libplacebo.org](https://libplacebo.org/custom-shaders/#full-example)
     - filmgrain.glsl
+- [bloc97/Anime4K](https://github.com/bloc97/Anime4K)
+    - Anime4k.glsl
+- [Artoriuz/glsl-pixel-clipper](https://github.com/Artoriuz/glsl-pixel-clipper)
+    - PixelClipper.glsl
+- [LightArrowsEXE/SSimDownscaler](https://github.com/LightArrowsEXE/dotfiles/blob/master/mpv/.config/mpv/shaders/SSimDownscaler.glsl)
+    - SSimDownscaler.glsl
