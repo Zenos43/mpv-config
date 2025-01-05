@@ -1,15 +1,26 @@
-My Hero Academia: You're Next - 1080p 24fps
+## MPV config
+### Introduction
 
-![My Hero Academia_ You're Next - Final Trailer English Subtitled_watch_v=sXAZ0b-Q59Y pp=ygUMYm9rdSBubyBoZXJv-00 00 37 750-#1](https://github.com/user-attachments/assets/a1e4755c-7e98-4faa-bef5-360a424d5765)
+This project is the configuration file for the [mpv](https://github.com/mpv-player/mpv) player under Windows. It should be placed in the `portable_config` folder in the directory where `mpv.exe` is located,
 
+or in the default path of mpv configuration `%APPDATA%/mpv/`. This method takes effect globally.
 
-My Hero Academia: You're Next - 1080p 24fps ( Anime4k upscaler - ModeA+A )
+When `portable_config` is used, the global configuration scheme will be overwritten.
 
-![My Hero Academia_ You're Next - Final Trailer English Subtitled_watch_v=sXAZ0b-Q59Y pp=ygUMYm9rdSBubyBoZXJv-00 00 37 750-#2](https://github.com/user-attachments/assets/6dd2486c-b3a0-4c6b-b8df-fd0b6784ffc5)
+PS: When editing the configuration file yourself, please note that the encoding format should be UTF-8 and the line break should be Unix, otherwise MPV may not be recognized
 
-Live Twitch chat
+**My full mpv integration package download**: [OneDrive](https://1drv.ms/u/c/49e384b9e344f610/Ec_QrQEo9hlCmdwP-tZaN_cBlmqwDO9RWAFpRuU9Lk-tRw?e=OeMl71)
 
-![moistcr1tikal (live) 2024-12-08 06_13_moistcr1tikal-03 44 07 582-#1](https://github.com/user-attachments/assets/6fdbcd85-142b-400b-a4f0-96839d7b322f)
+### mpv client
+
+- Currently there is no official client released by mpv. There are some recommended third-party compiled versions on the official website: [https://mpv.io/installation](https://mpv.io/installation)
+- It is recommended to use the shinchiro version on Windows: [shinchiro_mpv](https://github.com/shinchiro/mpv-winbuild-cmake/releases) ![releases](https://img.shields.io/github/v/release/shinchiro/mpv-winbuild-cmake)
+- Daily build version: [zhongfly_mpv](https://github.com/zhongfly/mpv-winbuild) [![releases](https://img.shields.io/github/v/release/zhongfly/mpv-winbuild)](https://github.com/zhongfly/mpv-winbuild/releases)
+- Currently the more mature mpv/libmpv front-end recommendation: [mpv.net](https://github.com/mpvnet-player/mpv.net) [![mpv.net](https://flat.badgen.net/github/last-commit/mpvnet-player/mpv.net?scale=1.0&cache=1800)](https://github.com/mpvnet-player/mpv.net) [![releases](https://img.shields.io/github/v/release/mpvnet-player/mpv.net)](https://github.com/mpvnet-player/mpv.net/releases)
+- Recommended method for browser to call mpv playback
+- [mpv-handler](https://github.com/akiirui/mpv-handler) with script [play-with-mpv](https://greasyfork.org/zh-CN/scripts/416271-play-with-mpv)
+- [Play-With-MPV](https://github.com/LuckyPuppy514/Play-With-MPV)
+- Single instance mode: [umpvw](https://github.com/SilverEzhik/umpvw)
 
 ## Scripts and Shaders Credits
 
@@ -39,6 +50,8 @@ Live Twitch chat
 - [zenyd/speed-transition](https://github.com/zenyd/mpv-scripts/blob/master/speed-transition.lua)
 - [morrah/mpv-twitch-chat-irc](https://github.com/morrah/mpv-twitch-chat-irc)
 - [joaquintorres/autosubsync-mpv](https://github.com/joaquintorres/autosubsync-mpv)
+- [haasn/gentoo-conf](https://github.com/haasn/gentoo-conf/blob/xor/home/nand/.mpv/scripts/avail/fpsadjust.lua)
+- [LiveNoDelay]() (My custom)
 ---
 
 - [bjin/mpv-prescalers](https://github.com/bjin/mpv-prescalers/tree/master/gather)
@@ -61,3 +74,22 @@ Live Twitch chat
     - PixelClipper.glsl
 - [LightArrowsEXE/SSimDownscaler](https://github.com/LightArrowsEXE/dotfiles/blob/master/mpv/.config/mpv/shaders/SSimDownscaler.glsl)
     - SSimDownscaler.glsl
+
+## Reference
+
+* [mpv Original Official Development Manual (English)](https://mpv.io/manual/master/)
+* [tuilakhanh/ mpv-config](https://github.com/tuilakhanh/mpv-config)
+
+
+## Preview
+
+### My Hero Academia: You're Next - 1080p 24fps
+![My Hero Academia_ You're Next - Final Trailer English Subtitled_watch_v=sXAZ0b-Q59Y pp=ygUMYm9rdSBubyBoZXJv-00 00 37 750-#1](https://github.com/user-attachments/assets/a1e4755c-7e98-4faa-bef5-360a424d5765)
+
+
+### My Hero Academia: You're Next - 1080p 24fps ( Anime4k upscaler - ModeA+A )
+![My Hero Academia_ You're Next - Final Trailer English Subtitled_watch_v=sXAZ0b-Q59Y pp=ygUMYm9rdSBubyBoZXJv-00 00 37 750-#2](https://github.com/user-attachments/assets/6dd2486c-b3a0-4c6b-b8df-fd0b6784ffc5)
+
+### Live Twitch chat (Streamlink)
+![moistcr1tikal (live) 2024-12-08 06_13_moistcr1tikal-03 44 07 582-#1](https://github.com/user-attachments/assets/6fdbcd85-142b-400b-a4f0-96839d7b322f)
+
