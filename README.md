@@ -52,6 +52,7 @@ PS: When editing the configuration file yourself, please note that the encoding 
 - [joaquintorres/autosubsync-mpv](https://github.com/joaquintorres/autosubsync-mpv)
 - [haasn/gentoo-conf](https://github.com/haasn/gentoo-conf/blob/xor/home/nand/.mpv/scripts/avail/fpsadjust.lua)
 - [LiveNoDelay]() (My custom)
+- [vapoursynth]() (My custom)
 ---
 
 - [bjin/mpv-prescalers](https://github.com/bjin/mpv-prescalers/tree/master/gather)
