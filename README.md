@@ -9,7 +9,7 @@ When `portable_config` is used, the global configuration scheme will be overwrit
 
 PS: When editing the configuration file yourself, please note that the encoding format should be UTF-8 and the line break should be Unix, otherwise MPV may not be recognized
 
-**My full mpv integration package download**: [OneDrive](https://1drv.ms/u/c/49e384b9e344f610/Ec_QrQEo9hlCmdwP-tZaN_cBlmqwDO9RWAFpRuU9Lk-tRw?e=OeMl71)
+**My full mpv integration package download**: [Drive](https://drive.google.com/file/d/1sBcuWWZp1g297B49JRarsPHWqsg3d5ZW/view?usp=sharing)
 
 ### mpv client
 
