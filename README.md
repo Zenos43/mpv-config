@@ -94,3 +94,6 @@ PS: When editing the configuration file yourself, please note that the encoding 
 ### Live Twitch chat (Streamlink)
 ![moistcr1tikal (live) 2024-12-08 06_13_moistcr1tikal-03 44 07 582-#1](https://github.com/user-attachments/assets/6fdbcd85-142b-400b-a4f0-96839d7b322f)
 
+### vapoursynth (Filter force 60fps)
+![{FCAEC808-CA97-4EB9-A82D-73F9B45EFC51}](https://github.com/user-attachments/assets/d2164025-35d0-434c-8a38-288fe4ab0f0b)
+
